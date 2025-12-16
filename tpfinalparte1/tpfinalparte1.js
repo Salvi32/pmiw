@@ -18,10 +18,10 @@ function preload() {
   for (let i = 0; i < 15; i++) {
     imagenes[i] = loadImage("data/imagenes/imagen" + nf(i+1, 2) + ".png");
     parrafos = loadFont("data/LibertinusSerifDisplay-Regular.ttf");
-    titulos = loadFont("data/GODOFWAR.ttf");
+    titulos = loadFont("data/GODOFWAR.TTF");
   }
   soundFormats('mp3');
-    sonido = loadSound('data/gordosmusica');
+    sonido = loadSound('data/gordosmusica.mp3');
 }
 function setup() {
   createCanvas(640, 480);
